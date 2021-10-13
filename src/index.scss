@@ -1,0 +1,68 @@
+@import './vendor/normalize.css';
+
+.page {
+  max-width: 1286px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__title {
+    font-family: 'Styrene A Web', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #000;
+    margin: 0;
+  }
+}
+
+.list {
+  &__item {
+    font-family: 'Styrene A Web', sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+.section {
+  &__title {
+    font-family: 'Styrene A Web', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #000;
+    margin: 0;
+  }
+  &__list {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.module {
+  display: flex;
+  gap: 80px;
+
+  &__title {
+    font-family: 'Styrene A Web', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #000;
+    margin: 0;
+  }
+  &__list {
+    padding: 0;
+    margin: 0;
+  }
+  &__item {
+    font-size: 16px;
+    color: #000;
+  }
+}
