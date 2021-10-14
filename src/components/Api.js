@@ -11,7 +11,7 @@ export default class Api {
   }
 
   getData() {
-    return fetch(`${this._baseUrl}/`, {
+    return fetch(`${this._baseUrl}api/v1/bootcamps/605c5f71bc557b46b4f42a56/courses`, {
     })
     .then((res) => this._checkResponse(res));
   }
